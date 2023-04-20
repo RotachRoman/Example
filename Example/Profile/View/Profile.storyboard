@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zSn-5i-daj">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Профиль-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="ProfileVC" customModule="leonardo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="evc-xq-ALb">
+                                <rect key="frame" x="0.0" y="92" width="414" height="770"/>
+                                <color key="backgroundColor" name="F4F4F4"/>
+                                <inset key="separatorInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
+                                <color key="sectionIndexBackgroundColor" name="F4F4F4"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="5EZ-qb-Rvc" id="KaJ-Lj-J6p"/>
+                                    <outlet property="delegate" destination="5EZ-qb-Rvc" id="XNb-qa-Gxs"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="evc-xq-ALb" secondAttribute="trailing" id="2Yg-kW-QW8"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="evc-xq-ALb" secondAttribute="bottom" id="D6N-oc-TnI"/>
+                            <constraint firstItem="evc-xq-ALb" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Zgu-be-xVR"/>
+                            <constraint firstItem="evc-xq-ALb" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="qET-rl-2Cp"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Профиль" id="Bzm-bU-eEw">
+                        <rightBarButtonItems>
+                            <barButtonItem title="Item" image="Profile_navigation_bell" id="C8U-Um-d2S">
+                                <color key="tintColor" name="2C2D2E"/>
+                                <connections>
+                                    <action selector="barBtnT:" destination="Y6W-OH-hqX" id="EyW-4C-qnt"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Item" image="Profile_navigation_heart" id="HRt-3C-h9z">
+                                <color key="tintColor" name="2C2D2E"/>
+                                <connections>
+                                    <action selector="barBtnT:" destination="Y6W-OH-hqX" id="V5J-BB-85g"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="bellBarBtn" destination="C8U-Um-d2S" id="LTV-4i-CY6"/>
+                        <outlet property="likeBarBtn" destination="HRt-3C-h9z" id="ftX-q2-xnw"/>
+                        <outlet property="tableView" destination="evc-xq-ALb" id="JRz-Cx-mbD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2749.275362318841" y="97.767857142857139"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="nb4-qo-sbe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zSn-5i-daj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="zkE-f0-35j"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yLy-Qd-ljp">
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="Opz-fF-LTH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dd9-BU-e6W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1839.1304347826087" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Profile_navigation_bell" width="24" height="24"/>
+        <image name="Profile_navigation_heart" width="24" height="24"/>
+        <namedColor name="2C2D2E">
+            <color red="0.17254901960784313" green="0.17647058823529413" blue="0.1803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="F4F4F4">
+            <color red="0.95686274509803926" green="0.95686274509803926" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

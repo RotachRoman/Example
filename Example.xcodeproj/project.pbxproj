@@ -16,6 +16,24 @@
 		CBD228ED29F1404C00609F14 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD228EC29F1404C00609F14 /* ExampleTests.swift */; };
 		CBD228F729F1404C00609F14 /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD228F629F1404C00609F14 /* ExampleUITests.swift */; };
 		CBD228F929F1404C00609F14 /* ExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD228F829F1404C00609F14 /* ExampleUITestsLaunchTests.swift */; };
+		CBD2292129F1465900609F14 /* ProfileViewModel + CreateObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2290729F1465800609F14 /* ProfileViewModel + CreateObj.swift */; };
+		CBD2292229F1465900609F14 /* ProfileViewModel + Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2290829F1465800609F14 /* ProfileViewModel + Objects.swift */; };
+		CBD2292329F1465900609F14 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2290929F1465800609F14 /* ProfileViewModel.swift */; };
+		CBD2292429F1465900609F14 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2290B29F1465800609F14 /* ProfileVC.swift */; };
+		CBD2292629F1465900609F14 /* ProfileFooterTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2290F29F1465800609F14 /* ProfileFooterTVC.swift */; };
+		CBD2292729F1465900609F14 /* SocialIconCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD2291029F1465800609F14 /* SocialIconCVC.xib */; };
+		CBD2292829F1465900609F14 /* ProfileFooterTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD2291129F1465800609F14 /* ProfileFooterTVC.xib */; };
+		CBD2292929F1465900609F14 /* ProfileAuthTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2291329F1465900609F14 /* ProfileAuthTVC.swift */; };
+		CBD2292A29F1465900609F14 /* ProfileAuthTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD2291429F1465900609F14 /* ProfileAuthTVC.xib */; };
+		CBD2292B29F1465900609F14 /* ProfileExitTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD2291629F1465900609F14 /* ProfileExitTVC.xib */; };
+		CBD2292C29F1465900609F14 /* ProfileExitTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2291729F1465900609F14 /* ProfileExitTVC.swift */; };
+		CBD2292D29F1465900609F14 /* ProfileCardTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD2291929F1465900609F14 /* ProfileCardTVC.xib */; };
+		CBD2292E29F1465900609F14 /* ProfileCardTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2291A29F1465900609F14 /* ProfileCardTVC.swift */; };
+		CBD2292F29F1465900609F14 /* ProfileMainTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBD2291C29F1465900609F14 /* ProfileMainTVC.xib */; };
+		CBD2293029F1465900609F14 /* ProfileMainTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2291D29F1465900609F14 /* ProfileMainTVC.swift */; };
+		CBD2293129F1465900609F14 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD2291E29F1465900609F14 /* Profile.storyboard */; };
+		CBD2293229F1465900609F14 /* ProfileRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2292029F1465900609F14 /* ProfileRouting.swift */; };
+		CBD2293429F148AF00609F14 /* SocialIconCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2293329F148AF00609F14 /* SocialIconCVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +67,24 @@
 		CBD228F229F1404C00609F14 /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD228F629F1404C00609F14 /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		CBD228F829F1404C00609F14 /* ExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CBD2290729F1465800609F14 /* ProfileViewModel + CreateObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ProfileViewModel + CreateObj.swift"; sourceTree = "<group>"; };
+		CBD2290829F1465800609F14 /* ProfileViewModel + Objects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ProfileViewModel + Objects.swift"; sourceTree = "<group>"; };
+		CBD2290929F1465800609F14 /* ProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		CBD2290B29F1465800609F14 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		CBD2290F29F1465800609F14 /* ProfileFooterTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileFooterTVC.swift; sourceTree = "<group>"; };
+		CBD2291029F1465800609F14 /* SocialIconCVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SocialIconCVC.xib; sourceTree = "<group>"; };
+		CBD2291129F1465800609F14 /* ProfileFooterTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileFooterTVC.xib; sourceTree = "<group>"; };
+		CBD2291329F1465900609F14 /* ProfileAuthTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileAuthTVC.swift; sourceTree = "<group>"; };
+		CBD2291429F1465900609F14 /* ProfileAuthTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileAuthTVC.xib; sourceTree = "<group>"; };
+		CBD2291629F1465900609F14 /* ProfileExitTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileExitTVC.xib; sourceTree = "<group>"; };
+		CBD2291729F1465900609F14 /* ProfileExitTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileExitTVC.swift; sourceTree = "<group>"; };
+		CBD2291929F1465900609F14 /* ProfileCardTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileCardTVC.xib; sourceTree = "<group>"; };
+		CBD2291A29F1465900609F14 /* ProfileCardTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCardTVC.swift; sourceTree = "<group>"; };
+		CBD2291C29F1465900609F14 /* ProfileMainTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileMainTVC.xib; sourceTree = "<group>"; };
+		CBD2291D29F1465900609F14 /* ProfileMainTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileMainTVC.swift; sourceTree = "<group>"; };
+		CBD2291E29F1465900609F14 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		CBD2292029F1465900609F14 /* ProfileRouting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileRouting.swift; sourceTree = "<group>"; };
+		CBD2293329F148AF00609F14 /* SocialIconCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialIconCVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +138,7 @@
 				CBD228D529F1404800609F14 /* AppDelegate.swift */,
 				CBD228D729F1404800609F14 /* SceneDelegate.swift */,
 				CBD228D929F1404800609F14 /* ViewController.swift */,
+				CBD2290529F1465800609F14 /* Profile */,
 				CBD228DB29F1404800609F14 /* Main.storyboard */,
 				CBD228DE29F1404B00609F14 /* Assets.xcassets */,
 				CBD228E029F1404B00609F14 /* LaunchScreen.storyboard */,
@@ -125,6 +162,103 @@
 				CBD228F829F1404C00609F14 /* ExampleUITestsLaunchTests.swift */,
 			);
 			path = ExampleUITests;
+			sourceTree = "<group>";
+		};
+		CBD2290529F1465800609F14 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CBD2290629F1465800609F14 /* ViewModel */,
+				CBD2290A29F1465800609F14 /* View */,
+				CBD2291F29F1465900609F14 /* Routing */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CBD2290629F1465800609F14 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CBD2290929F1465800609F14 /* ProfileViewModel.swift */,
+				CBD2290829F1465800609F14 /* ProfileViewModel + Objects.swift */,
+				CBD2290729F1465800609F14 /* ProfileViewModel + CreateObj.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CBD2290A29F1465800609F14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBD2290C29F1465800609F14 /* Cells */,
+				CBD2290B29F1465800609F14 /* ProfileVC.swift */,
+				CBD2291E29F1465900609F14 /* Profile.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CBD2290C29F1465800609F14 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CBD2290D29F1465800609F14 /* ProfileFooterCell */,
+				CBD2291229F1465900609F14 /* ProfileAuthCell */,
+				CBD2291529F1465900609F14 /* ExitCell */,
+				CBD2291829F1465900609F14 /* CardCell */,
+				CBD2291B29F1465900609F14 /* MainCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CBD2290D29F1465800609F14 /* ProfileFooterCell */ = {
+			isa = PBXGroup;
+			children = (
+				CBD2290F29F1465800609F14 /* ProfileFooterTVC.swift */,
+				CBD2293329F148AF00609F14 /* SocialIconCVC.swift */,
+				CBD2291029F1465800609F14 /* SocialIconCVC.xib */,
+				CBD2291129F1465800609F14 /* ProfileFooterTVC.xib */,
+			);
+			path = ProfileFooterCell;
+			sourceTree = "<group>";
+		};
+		CBD2291229F1465900609F14 /* ProfileAuthCell */ = {
+			isa = PBXGroup;
+			children = (
+				CBD2291329F1465900609F14 /* ProfileAuthTVC.swift */,
+				CBD2291429F1465900609F14 /* ProfileAuthTVC.xib */,
+			);
+			path = ProfileAuthCell;
+			sourceTree = "<group>";
+		};
+		CBD2291529F1465900609F14 /* ExitCell */ = {
+			isa = PBXGroup;
+			children = (
+				CBD2291629F1465900609F14 /* ProfileExitTVC.xib */,
+				CBD2291729F1465900609F14 /* ProfileExitTVC.swift */,
+			);
+			path = ExitCell;
+			sourceTree = "<group>";
+		};
+		CBD2291829F1465900609F14 /* CardCell */ = {
+			isa = PBXGroup;
+			children = (
+				CBD2291929F1465900609F14 /* ProfileCardTVC.xib */,
+				CBD2291A29F1465900609F14 /* ProfileCardTVC.swift */,
+			);
+			path = CardCell;
+			sourceTree = "<group>";
+		};
+		CBD2291B29F1465900609F14 /* MainCell */ = {
+			isa = PBXGroup;
+			children = (
+				CBD2291C29F1465900609F14 /* ProfileMainTVC.xib */,
+				CBD2291D29F1465900609F14 /* ProfileMainTVC.swift */,
+			);
+			path = MainCell;
+			sourceTree = "<group>";
+		};
+		CBD2291F29F1465900609F14 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				CBD2292029F1465900609F14 /* ProfileRouting.swift */,
+			);
+			path = Routing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +365,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBD2292F29F1465900609F14 /* ProfileMainTVC.xib in Resources */,
 				CBD228E229F1404B00609F14 /* LaunchScreen.storyboard in Resources */,
+				CBD2293129F1465900609F14 /* Profile.storyboard in Resources */,
+				CBD2292A29F1465900609F14 /* ProfileAuthTVC.xib in Resources */,
+				CBD2292B29F1465900609F14 /* ProfileExitTVC.xib in Resources */,
+				CBD2292D29F1465900609F14 /* ProfileCardTVC.xib in Resources */,
 				CBD228DF29F1404B00609F14 /* Assets.xcassets in Resources */,
+				CBD2292729F1465900609F14 /* SocialIconCVC.xib in Resources */,
+				CBD2292829F1465900609F14 /* ProfileFooterTVC.xib in Resources */,
 				CBD228DD29F1404800609F14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +399,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBD2292629F1465900609F14 /* ProfileFooterTVC.swift in Sources */,
+				CBD2292C29F1465900609F14 /* ProfileExitTVC.swift in Sources */,
+				CBD2292329F1465900609F14 /* ProfileViewModel.swift in Sources */,
+				CBD2293029F1465900609F14 /* ProfileMainTVC.swift in Sources */,
+				CBD2292129F1465900609F14 /* ProfileViewModel + CreateObj.swift in Sources */,
+				CBD2292429F1465900609F14 /* ProfileVC.swift in Sources */,
+				CBD2293229F1465900609F14 /* ProfileRouting.swift in Sources */,
+				CBD2292229F1465900609F14 /* ProfileViewModel + Objects.swift in Sources */,
 				CBD228DA29F1404800609F14 /* ViewController.swift in Sources */,
 				CBD228D629F1404800609F14 /* AppDelegate.swift in Sources */,
+				CBD2293429F148AF00609F14 /* SocialIconCVC.swift in Sources */,
+				CBD2292929F1465900609F14 /* ProfileAuthTVC.swift in Sources */,
 				CBD228D829F1404800609F14 /* SceneDelegate.swift in Sources */,
+				CBD2292E29F1465900609F14 /* ProfileCardTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
