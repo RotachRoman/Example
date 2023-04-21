@@ -16,7 +16,7 @@ final class ProfileCardTVC: UITableViewCell, TableViewCellConfigurable {
     
     //MARK: Configure
     func configure(with object: CellObject) {
-        guard let obj = object as? ProfileViewModel.Cell else { return }
+        guard let obj = object as? ProfileModel.Cell else { return }
         if let url = URL(string: obj.url ?? "") {
             self.photoLbl.load(url: url)
         }

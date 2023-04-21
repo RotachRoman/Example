@@ -12,7 +12,7 @@ final class SocialIconCVC: UICollectionViewCell,  CollectionViewCellConfigurable
     @IBOutlet private weak var imageView: UIImageView!
     
     func configure(with object: CellObject) {
-        guard let obj = object as? ProfileViewModel.SocialCell else { return }
+        guard let obj = object as? ProfileModel.SocialCell else { return }
         imageView.getImage(urlStr: obj.icon)
     }
 }

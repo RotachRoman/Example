@@ -15,7 +15,7 @@ final class ProfileExitTVC: UITableViewCell, TableViewCellConfigurable {
     
     //MARK: Configure
     public func configure(with object: CellObject) {
-        guard let obj = object as? ProfileViewModel.Cell else { return }
+        guard let obj = object as? ProfileModel.Cell else { return }
         self.iconLbl.image = UIImage(named: obj.key)
         self.extitLbl.setAttribute(with: obj.title, fontName: .SFProDisplayRegular, size: 16)
     }
