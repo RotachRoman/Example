@@ -40,7 +40,7 @@ final class ProfileFooterTVC: UITableViewCell, TableViewCellConfigurable {
     
     //MARK: - Helper
     public func configure(with object: CellObject) {
-        guard let obj = object as? ProfileViewModel.FooterCell else { return }
+        guard let obj = object as? ProfileModel.FooterCell else { return }
         guard let phone = UserDefaultsManager.phone_country else { return }
         self.didTapDelete = obj.didTapDelete
         objects = obj.socials
@@ -100,7 +100,7 @@ extension ProfileFooterTVC: UICollectionViewDelegate, UICollectionViewDataSource
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let cellObject = objects[indexPath.row] as? ProfileViewModel.SocialCell
+        let cellObject = objects[indexPath.row] as? ProfileModel.SocialCell
         guard let url = cellObject?.url else { return }
         url.openURL(type: .noneType)
     }

@@ -10,7 +10,7 @@ import UIKit
 final class ProfileAuthTVC: UITableViewCell, TableViewCellConfigurable {
     
     //MARK: Properies
-    var obj: ProfileViewModel.Cell!
+    var obj: ProfileModel.Cell!
    
     @IBOutlet private weak var titleLbl: UILabel!
     @IBOutlet private weak var subtitleLbl: UILabel!
@@ -26,7 +26,7 @@ final class ProfileAuthTVC: UITableViewCell, TableViewCellConfigurable {
     
     //MARK: Configure
     func configure(with object: CellObject) {
-        guard let obj = object as? ProfileViewModel.Cell else { return }
+        guard let obj = object as? ProfileModel.Cell else { return }
         self.obj = obj
         setupUI(with: obj)
     }

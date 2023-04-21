@@ -16,7 +16,7 @@ final class ProfileMainTVC: UITableViewCell , TableViewCellConfigurable {
     
     //MARK: Configure
     func configure(with object: CellObject) {
-        guard let obj = object as? ProfileViewModel.Cell else { return }
+        guard let obj = object as? ProfileModel.Cell else { return }
         if let image = obj.imageList {
             iconLbl.getImage(urlStr: image)
             self.iconLbl.isHidden = false

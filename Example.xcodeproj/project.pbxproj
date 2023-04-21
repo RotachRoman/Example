@@ -34,6 +34,7 @@
 		CBD2293129F1465900609F14 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD2291E29F1465900609F14 /* Profile.storyboard */; };
 		CBD2293229F1465900609F14 /* ProfileRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2292029F1465900609F14 /* ProfileRouting.swift */; };
 		CBD2293429F148AF00609F14 /* SocialIconCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2293329F148AF00609F14 /* SocialIconCVC.swift */; };
+		CBD2293729F2767C00609F14 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD2293629F2767C00609F14 /* ProfileModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		CBD2291E29F1465900609F14 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		CBD2292029F1465900609F14 /* ProfileRouting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileRouting.swift; sourceTree = "<group>"; };
 		CBD2293329F148AF00609F14 /* SocialIconCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialIconCVC.swift; sourceTree = "<group>"; };
+		CBD2293629F2767C00609F14 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 		CBD2290529F1465800609F14 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				CBD2293529F2766A00609F14 /* Model */,
 				CBD2290629F1465800609F14 /* ViewModel */,
 				CBD2290A29F1465800609F14 /* View */,
 				CBD2291F29F1465900609F14 /* Routing */,
@@ -259,6 +262,14 @@
 				CBD2292029F1465900609F14 /* ProfileRouting.swift */,
 			);
 			path = Routing;
+			sourceTree = "<group>";
+		};
+		CBD2293529F2766A00609F14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CBD2293629F2767C00609F14 /* ProfileModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -399,6 +410,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBD2293729F2767C00609F14 /* ProfileModel.swift in Sources */,
 				CBD2292629F1465900609F14 /* ProfileFooterTVC.swift in Sources */,
 				CBD2292C29F1465900609F14 /* ProfileExitTVC.swift in Sources */,
 				CBD2292329F1465900609F14 /* ProfileViewModel.swift in Sources */,
